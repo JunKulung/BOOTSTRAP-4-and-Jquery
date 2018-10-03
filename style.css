@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+.jumbotron {
+	font-family: 'Quicksand', sans-serif;
+	background-image: url(1.png);
+	margin-top: 65px;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	font-weight: 300;
+	font-size: 60px;
+	margin-top: -40px;
+}
+
+.jumbotron span {
+	color: #f6b718;
+}
+
+.navbar a {
+	padding: 10px;
+}
+
+.fa {
+	background: #f6b718;
+	font-size: 16px;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	text-decoration: none;
+	border: #f6b718 1px solid;
+}
+
+.fa-facebook {
+	padding: 20px 22px;
+}
+
+.fa:hover {
+	background: #f7f7f7;
+	color: #f6b718;
+	border: #f6b718 1px solid;
+	transition: .5s;
+}
+
+.social {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.social .content {
+	flex: 1;
+	text-align: center;
+}
+
+.content p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+.card-img-top {
+	height: 225px;
+	width: 100%;
+}
+
+.first,
+.second {
+	border: 1px solid black;
+	margin-top: 50px;
+}
+
+.heading {
+	padding-top: 90px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+
+.lead {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.card-text {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+.btn-group,
+.text-muted {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+}
+
+.second button {
+	padding: 8px 50px;
+	border-radius: 5px;
+	border: #f6b718 1px solid;
+	color: white;
+	background: #f6b718;
+	margin-bottom: 20px;
+}
+
+.second button:hover {
+	color: black;
+	background: transparent;
+	transition: .6s;
+}
+
+.card-img-top {
+	border: 1px solid black;
+}
