@@ -1,8 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+html {
+	scroll-behavior: smooth;
+}
+.navbar {
+    opacity: .8;
+}
+.navbar-brand {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	transition: .5s;
+}
+
+.nav-item {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+    transition: .5s;
+    padding: 35px;
+}
+
+.navbar-toggler-icon {
+	font-size: 20px;
+	transition: .5s;
+}
+
 .jumbotron {
 	font-family: 'Quicksand', sans-serif;
 	background-image: url(1.png);
-	margin-top: 65px;
+	margin-top: 73px;
 	background-size: cover;
 }
 
@@ -68,13 +92,15 @@
 }
 
 .first,
-.second {
-	border: 1px solid black;
+.second,
+.third,
+.fourth,
+.fifth {
 	margin-top: 50px;
 }
 
 .heading {
-	padding-top: 90px;
+	padding-top: 50px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
 }
@@ -83,6 +109,7 @@
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 100;
 	font-size: 18px;
+	margin-bottom: 100px;
 }
 
 .card-text {
@@ -97,21 +124,94 @@
 	font-weight: 100;
 }
 
-.second button {
-	padding: 8px 50px;
-	border-radius: 5px;
+.col-lg-12 hr {
+	width: 80px;
+	background: #f6b718;
+	height: 1.3px;
+}
+
+.second img {
+	border-radius: 50%;
+	border: 5px solid #c2c1bf;
+	margin-bottom: 50px;
+}
+
+.third img {
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.third p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+}
+
+.third h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+
+.third .fa {
+	background: #302f2e;
+	font-size: 14px;
+	color: white;
+	padding: 15px;
+	border-radius: 50%;
+	text-decoration: none;
+	border: #302f2e 1px solid;
+	margin: 5px;
+}
+
+.third .fa:hover {
+	background: #f6b718;
+	color: white;
+}
+
+.third .col-lg-4 {
+	margin-bottom: 30px;
+}
+
+.fifth {
+	background-image: url(8.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+}
+
+.fifth h1 {
+	padding-top: 50px;
+	color: white;
+}
+
+.fifth button {
+	padding: 7px 20px;
+	background: transparent;
 	border: #f6b718 1px solid;
 	color: white;
-	background: #f6b718;
-	margin-bottom: 20px;
+	border-radius: 10px;
+	margin-bottom: 30px;
 }
 
-.second button:hover {
+.fifth button:hover {
+	background-color: #f6b718;
+	color: white;
+	transition: .4s;
 	color: black;
-	background: transparent;
-	transition: .6s;
 }
 
-.card-img-top {
-	border: 1px solid black;
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer .fa {
+	background-color: #302f2e;
+	border: #302f2e 1px solid;
+	margin: 20px;
+	text-decoration: none;
+}
+
+.footer .fa:hover {
+	background-color: transparent;
+	border: #f6b718 1px solid;
 }
